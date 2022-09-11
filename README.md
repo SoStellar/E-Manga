@@ -1,2 +1,4 @@
 # E-Manga
-this project was made by HOM HOM Team
+this project was made by HOM HOM Hom Team
+sleeppppppppp
+
