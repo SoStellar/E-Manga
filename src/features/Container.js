@@ -11,7 +11,7 @@ export default styled(Container)`
     max-width:1280px;
     height:100%;
     margin: 0 auto;
-    padding: 4rem 0;
+    padding: 4rem;
     display: flex;
     justify-content: center;
 `

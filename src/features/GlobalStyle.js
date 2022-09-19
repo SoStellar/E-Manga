@@ -4,24 +4,18 @@ const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
   }
-  html{
-    height: 100%;
-  }
   body {
     margin: 0;
     background-image: linear-gradient(to bottom, #c31432, #a10043, #780049, #4d0845, #240b36);
   }
-
   a {
     color: inherit;
     text-decoration: none;
   }
-
   form label {
     display: inline-block;
     margin-bottom: 0.5rem;
   }
-
   form input {
     padding: 0.3rem 0.7rem;
 

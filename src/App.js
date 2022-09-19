@@ -11,9 +11,10 @@ const App = () => {
         <>
             <GlobalStyle />
             <Navbar />
+
             <Container>
-                <Home />
                 <Login />
+                {/* <Home /> */}
             </Container>
         </>
     )

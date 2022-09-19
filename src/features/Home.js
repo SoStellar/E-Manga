@@ -49,58 +49,6 @@ function Home({ className }) {
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-2">
-                        <div class="manga-box position-relative">
-                            <div class="card">
-                                <img src="https://img.freepik.com/free-vector/smiling-girl-anime-character-poster_603843-3026.jpg?w=360" class="card-img-top" alt="..." />
-                                <div class="card-button">
-                                    <div><button type="button" class="favorite-button rounded"><i class="bi bi-heart"></i></button></div>
-                                    <div><button type="button" class="cart-button rounded"><i class="bi bi bi-bag-plus"></i></button></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2">
-                        <div class="manga-box position-relative">
-                            <div class="card">
-                                <img src="https://img.freepik.com/free-vector/smiling-girl-anime-character-poster_603843-3026.jpg?w=360" class="card-img-top" alt="..." />
-                                <div class="card-button">
-                                    <div><button type="button" class="favorite-button rounded"><i class="bi bi-heart"></i></button></div>
-                                    <div><button type="button" class="cart-button rounded"><i class="bi bi bi-bag-plus"></i></button></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2">
-                        <div class="manga-box position-relative">
-                            <div class="card">
-                                <img src="https://img.freepik.com/free-vector/smiling-girl-anime-character-poster_603843-3026.jpg?w=360" class="card-img-top" alt="..." />
-                                <div class="card-button">
-                                    <div><button type="button" class="favorite-button rounded"><i class="bi bi-heart"></i></button></div>
-                                    <div><button type="button" class="cart-button rounded"><i class="bi bi bi-bag-plus"></i></button></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2">
-                        <div class="manga-box position-relative">
-                            <div class="card">
-                                <img src="https://img.freepik.com/free-vector/smiling-girl-anime-character-poster_603843-3026.jpg?w=360" class="card-img-top" alt="..." />
-                                <div class="card-button">
-                                    <div><button type="button" class="favorite-button rounded"><i class="bi bi-heart"></i></button></div>
-                                    <div><button type="button" class="cart-button rounded"><i class="bi bi bi-bag-plus"></i></button></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
 
         </div>

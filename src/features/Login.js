@@ -21,7 +21,10 @@ function Login({ className }) {
                         </div>
                     </form>
                 </div>
+                <div class="row emptyContainer">
+                </div>
             </div>
+            <div class="row expand"></div>
         </div>
     )
 }
@@ -29,6 +32,9 @@ function Login({ className }) {
 export default styled(Login)`
     span{
         color: #ffffff;
+    }
+    .expand{
+        height: 3.1rem;
     }
     .nevigateButton{
         display: flex;
@@ -44,7 +50,7 @@ export default styled(Login)`
         color: #000000;
     }
     .LoginPage{
-        position:relative;
+        position: relative;
         top: 15%;
     }
     .row{
