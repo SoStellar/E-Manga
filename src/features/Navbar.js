@@ -3,19 +3,21 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 function Navbar({ className }) {
+  const logo = require('../assets/logo.png');
   return (
     <header className={className}>
       <div class="options">
-        <a href="/" className="brand">
-          E-Manga
-        </a>
-        <a href="/">Home</a>
-        <a href="/">Manga</a>
-        <a href="/">Favorite</a>
+        <img src={logo} alt="E-Manga"></img>
+        <a href="./Home.js">Home</a>
+        <a href="./Manga.js">Manga</a>
+        <a href="/Favorite.js">Favorite</a>
       </div>
       <div class="options2">
-        <a href="/"><i class="bi bi-bag-plus"></i> Cart</a>
-        <a href="/">Login<a href="/"> / Register</a></a>
+        <a href="/"><i class="bi bi-bag"></i> Cart</a>
+        <div>
+          <a href="./Login.js">Login</a>
+          <a href="/"> / Register</a>
+        </div>
       </div>
     </header >
   );
@@ -33,14 +35,23 @@ export default styled(Navbar)`
   align-items: center;
   justify-content: space-between;
 
-  background-color: #ffffff;
-  border-bottom: 1px solid #dee2e6;
+  background-color: #F5F5F5;
+  // border-bottom: 1px solid #dee2e6;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 
   padding: 2rem;
   position: fixed;
   z-index: 100;
 
+  a{
+    color: #AB987A;
+  }
+  a:hover{
+    color: #FF3B3F;
+  }
+  img{
+    width: 30%;
+  }
   .options{
     width: 30%;
     display: flex;

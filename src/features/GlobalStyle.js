@@ -4,9 +4,12 @@ const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
   }
-
+  html{
+    height: 100%;
+  }
   body {
     margin: 0;
+    background-image: linear-gradient(to bottom, #c31432, #a10043, #780049, #4d0845, #240b36);
   }
 
   a {
